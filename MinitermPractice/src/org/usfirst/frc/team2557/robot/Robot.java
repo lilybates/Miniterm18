@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-import org.usfirst.frc.team2557.robot.commands.ServoCmd;
+import org.usfirst.frc.team2557.robot.commands.ServoCommand;
 import org.usfirst.frc.team2557.robot.subsystems.ServoSub;
 
 /**
@@ -22,7 +22,7 @@ public class Robot extends IterativeRobot {
 
 	public static OI oi;
 	public static ServoSub ServoSub;
-	public static ServoCmd ServoCmd;
+	public static ServoCommand ServoCommand;
 	
 	
 	
