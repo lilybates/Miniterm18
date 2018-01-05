@@ -14,6 +14,7 @@ public class OI {
 	
 	public Joystick gamepad1;
 	public JoystickButton a1;
+	public JoystickButton b1;
 	
 	public void init(){
 		gamepad1 = new Joystick(0);
