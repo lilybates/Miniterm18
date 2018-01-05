@@ -8,12 +8,14 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 /**
  *
  */
-public class ServoSub extends Subsystem {{
+public class ServoSub extends Subsystem {
 	
+	public static void ServoArm(){
 	if(Robot.oi.a1.get()) {
 		RobotMap.servo.setAngle(.7);
 	}else {
 	RobotMap.servo.setAngle(0);	
+	}
 	}
 
     // Put methods for controlling this subsystem
@@ -24,6 +26,6 @@ public class ServoSub extends Subsystem {{
         //setDefaultCommand(new MySpecialCommand());
     }
 }
-}
+
 
 
